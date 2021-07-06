@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+
 body{
     font-family: 'Oswald', sans-serif;
 }
@@ -21,4 +22,107 @@ body{
     color: #fff;
     padding: 20px 30px;
     
+}
+h1{
+    font-size: 50px;
+}
+
+.section-2{
+    display: flex;
+    background-image: url(img/top-banner.png);
+    background-repeat: no-repeat;
+}
+.half-width{
+    width: 50%;
+    padding: 8%;
+}
+.half-width p{
+    padding: 20px 0;
+}
+
+.half-width img{
+    width: 90%;
+}
+
+.orange{
+    color: #e67e22;
+}
+.button{
+    text-decoration: none;
+    padding: 10px 40px;
+    background-image: linear-gradient(#9c897c, #c0392b);
+    border-radius: 10%;
+    color: white;
+    font-weight: 700;
+}
+
+.section-3{
+    display: flex;
+    background-image: url(img/bg2.png);
+    background-repeat: no-repeat;
+}
+
+.section-4{
+    margin-bottom: 100px;
+
+}
+.title-p{
+    padding: 0 300px;
+}
+
+.title{
+    text-align: center;
+    padding: 40px 0;
+}
+
+.food-items{
+    display: flex;
+    margin: 0 40px;
+}
+
+.food img{
+  width: 100%;
+  border-radius: 5%;
+}
+
+
+.shadow-box{
+    width: 30%;
+    margin: 40px;
+    box-shadow: 10px 10px 40px rgb(207, 199, 176);
+    padding: 20px;
+    border-radius: 5%;
+}
+
+.section-5{
+    background-color: rgb(241, 232, 232);
+    display: flex;
+    justify-content: center;
+    box-shadow: 10px 10px 40px rgb(253, 253, 249);
+    margin: 0 100px;
+    margin-bottom: 100px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.padding{
+    padding: 10px 90px;
+
+}
+.section-6{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-weight: 900;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+.section-6 p{
+    padding-top: 30px;
+    font-weight: 200;
+}
+
+footer{
+    background-color: rgb(117, 89, 89);
+    text-align: center;
+    font-weight: 900;
 }
